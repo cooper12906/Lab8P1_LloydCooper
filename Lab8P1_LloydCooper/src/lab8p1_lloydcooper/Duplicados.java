@@ -16,6 +16,7 @@ public class Duplicados {
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(10) + 1;
         }
+        
     }
     
     public void eliminarDuplicados() {
@@ -26,6 +27,7 @@ public class Duplicados {
                 }
             }
         }
+        imprimirArreglo();
     }
     
     public void imprimirArreglo() {

@@ -43,9 +43,10 @@ public class Lab8P1_LloydCooper {
                     duplicados.llenarArreglo();
                     System.out.print("Arreglo generado: ");
                     duplicados.imprimirArreglo();
-                    duplicados.eliminarDuplicados();
+                    
                     System.out.print("Arreglo sin duplicados: ");
-                    duplicados.imprimirArreglo();
+                    duplicados.eliminarDuplicados();
+                    //duplicados.imprimirArreglo();
                     break;
                 
                 case 3:
